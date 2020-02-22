@@ -1,0 +1,160 @@
+body{
+    margin:0;
+}
+.header-area{
+    background-image: url("images/top-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header-area .text-area{
+    margin:70px;
+    float:left;
+    overflow: hidden;
+}
+.header-area .text-area h1{
+    font-size:40px;
+    text-transform: capitalize;
+}
+.header-area .text-area .orange{
+    color:orange;
+}
+.header-area .text-area p{
+    color:grey;
+    text-transform: capitalize;
+}
+.header-area .button{
+    background:red;
+    color:#fff;
+    border:none;
+    font-size:16px;
+    text-transform: uppercase;
+    padding:5px;
+    border-radius:3px;
+}
+.header-area .header-img img{
+    width:35%;
+    margin-top:50px;
+}
+.middle-area{
+    background-image: url("images/dream-bg.png");
+    background-size: 10%;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.middle-area .img-area img{
+    width:35%;
+    float:left;
+    margin-right:90px;
+    overflow: hidden;
+}
+.middle-area .text-area h1{
+    text-transform: capitalize;
+    font-weight:bold;
+}
+.middle-area .text-area h5{
+    font-size:18px;
+    font-weight: bold;
+}
+.middle-area .text-area p{
+    color:grey;
+    text-transform: capitalize;
+}
+.middle-area .buttons{
+    background:red;
+    color:#fff;
+    border:none;
+    font-size:16px;
+    text-transform: uppercase;
+    padding:8px;
+    border-radius:3px;
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-size:10%;
+    background-position: left;
+    padding:60px;
+    overflow:hidden;
+}
+.exp-area h1{
+    font-size:50px;
+    font-weight: bold;
+}
+.exp-area .full-stack{
+    background-color: rgb(250, 253, 250);
+    width:40%;
+    height:230px;
+    padding:20px;
+    box-shadow: 5px 5px 10px grey;
+    float:left;
+    margin-left:50px;
+}
+.full-stack h3{
+    font-size: 30px;
+}
+.full-stack h5{
+    font-size:18px;
+    color:red;
+}
+.full-stack p{
+    color:grey;
+}
+.exp-area .baby{
+    background-color: rgb(250, 253, 250);
+    width:40%;
+    height:230px;
+    padding:20px;
+    box-shadow: 5px 5px 10px grey;
+    float:right;
+    margin-right: 50px;
+}
+.baby h3{
+    font-size: 30px;
+}
+.baby h5{
+    font-size:18px;
+    color:red;
+}
+.baby p{
+    color:grey;
+}
+
+@media all and (max-width:768px){
+    .header-area{
+        text-align: center;
+    }
+    .header-area .text-area{
+        text-align:center;
+    }
+    .header-area .header-img img{
+        margin:0;
+        margin-right: 50px;
+    }
+    .middle-area{
+        text-align: center;
+        margin-top:50px;
+    }
+    .middle-area .img-area img{
+        float:none;
+    }
+    .middle-area p{
+        text-align: center;
+    }
+    .exp-area .full-stack{
+        margin:auto;
+        float:none;
+        width:justify;
+        height:auto;
+        text-align: center;
+        margin-bottom:25px;
+    }
+    .exp-area .baby{
+        margin:auto;
+        float:none;
+        width:justify;
+        height:auto;
+        text-align: center;
+    }
+}
